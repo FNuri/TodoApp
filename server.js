@@ -6,7 +6,7 @@ let app = express ()
 let db
 
 let port = Process.env.PORT || 3000
-app.use(express.static('public'))
+app.use(express.static('/public'))
 
 let connectionString = 'mongodb+srv://todoAppUser:Abs123@123@cluster0-xw8k8.mongodb.net/todoApp?retryWrites=true&w=majority'
 mongodb.connect (connectionString, {useNewUrlParser: true}, function (err, client) {
