@@ -23,7 +23,7 @@ app.use(express.json())
 app.use(express.urlencoded ({extended:false}))
 
 
-/*function passwordProtected (req, res, next) {
+function passwordProtected (req, res, next) {
 res.set ('WWW-Authenticate', 'Basic realm="Simple Todo App"')
 
 console.log (req.headers.authorization)
@@ -36,7 +36,7 @@ console.log (req.headers.authorization)
 }
 
 app.get(passwordProtected)
-*/
+ 
 app.get ('/', function (req, res) {
   db.collection('items').find().toArray (function(err, items) {
     res.send (`<!DOCTYPE html>
