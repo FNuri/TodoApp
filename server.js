@@ -43,6 +43,15 @@ app.get ('/', function (req, res) {
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     </head>
     <body>
+
+    <nav class="site-nav">
+      <ul class="group">
+        <li><a href="https://fanurtechnology.herokuapp.com/">Home</a></li>
+        <li><a href="https://fanurtechnology.herokuapp.com/">Portfolio</a></li>
+        <li><a href="https://fanurtechnology.herokuapp.com/">About</a></li>
+        <li><a href="https://fanurtechnology.herokuapp.com/">Contact Us</a></li>
+      </ul>
+    </nav>
       <div class="container">
         <h1 class="display-4 text-center py-1">To-Do App</h1>
         
