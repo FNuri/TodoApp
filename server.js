@@ -46,7 +46,7 @@ app.get ('/', function (req, res) {
     <body>
 
     <nav class="site-nav">
-      <ul class="group">
+      <ul style= "list-style-type:none" class="group">
         <li><a href="https://fanurtechnology.herokuapp.com/">Home</a></li>
         <li><a href="https://fanurtechnology.herokuapp.com/portfolio.html">Portfolio</a></li>
         <li><a href="https://fanurtechnology.herokuapp.com/about.html">About</a></li>
