@@ -46,11 +46,11 @@ app.get ('/', function (req, res) {
     <body>
 
     <nav class="site-nav">
-      <ul style= "list-style-type:none" class="group">
+      <ul class="group">
         <li><a href="https://fanurtechnology.herokuapp.com/">Home</a></li>
-        <li><a href="https://fanurtechnology.herokuapp.com/">Portfolio</a></li>
-        <li><a href="https://fanurtechnology.herokuapp.com/">About</a></li>
-        <li><a href="https://fanurtechnology.herokuapp.com/">Contact Us</a></li>
+        <li><a href="https://fanurtechnology.herokuapp.com/portfolio.html">Portfolio</a></li>
+        <li><a href="https://fanurtechnology.herokuapp.com/about.html">About</a></li>
+        <li><a href="https://fanurtechnology.herokuapp.com/contactus.html">Contact Us</a></li>
       </ul>
     </nav>
       <div class="container">
