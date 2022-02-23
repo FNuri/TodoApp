@@ -47,10 +47,7 @@ app.get ('/', function (req, res) {
 
     <nav class="site-nav">
       <ul style= "list-style-type:none" class="group">
-      <li><a href="https://fanurtechnology.herokuapp.com/#Home">Home</a></li>
-      <li><a href="https://fanurtechnology.herokuapp.com/#Portfolio">Portfolio</a></li>
-      <li><a href="https://fanurtechnology.herokuapp.com/#About">About</a></li>
-      <li><a href="https://fanurtechnology.herokuapp.com/#Contact">Contact Us</a></li>
+      <li><a href="https://fanurtechnology.herokuapp.com/#Portfolio">Back to Portfolio</a></li>
       </ul>
     </nav>
       <div class="container">
